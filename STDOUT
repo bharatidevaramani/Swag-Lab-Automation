@@ -1,0 +1,83 @@
+Feature: 01 SwagLab application Login functionality
+
+  Scenario: 01_SwagLab application Login [90m# 01SwagLabs_Login.feature:3[0m
+    [32mGiven [0m[32mam on the SwagLab home page[0m    [90m# SwgLab_LoginPage.am_on_the_SwagLab_home_page()[0m
+    #When I enter "<SwagUsername>"
+    #|SwagUsername|
+    #|standard_user|
+    #|locked_out_user|
+    #|problem_user|
+    #|performance_glitch_user|
+    [32mWhen [0m[32mI enter SwagUsername[0m            [90m# SwgLab_LoginPage.i_enter_username()[0m
+    [32mThen [0m[32mI enter SwagPassword[0m            [90m# SwgLab_LoginPage.i_enter_password()[0m
+    [32mAnd [0m[32mI click the Login button[0m         [90m# SwgLab_LoginPage.i_click_the_Login_button()[0m
+    [32mAnd [0m[32mI verify the HomePage[0m            [90m# SwgLab_LoginPage.i_verify_the_HomePage()[0m
+    [32mThen [0m[32mI close the SwagApp[0m             [90m# SwgLab_LoginPage.i_close_the_application()[0m
+Feature: 02 SwagLab add One product to cart and complete Order
+
+  Scenario: 02_SwagLabs Add one product    [90m# 02SwagLabs_AddOneProduct.feature:3[0m
+    [32mGiven [0m[32mIam on the SwagLab home page[0m     [90m# SwagLab_AddOneProduct.am_on_the_SwagLab_home_page()[0m
+    [32mWhen [0m[32mI am entering SwagUsername[0m        [90m# SwagLab_AddOneProduct.i_enter_username()[0m
+    [32mThen [0m[32mI am entering SwagPassword[0m        [90m# SwagLab_AddOneProduct.i_enter_password()[0m
+    [32mAnd [0m[32mI clicked on Login button[0m          [90m# SwagLab_AddOneProduct.i_click_the_Login_button()[0m
+    [32mAnd [0m[32mI have assert the HomePage[0m         [90m# SwagLab_AddOneProduct.i_verify_the_HomePage()[0m
+    [32mAnd [0m[32mI click to addCartButton[0m           [90m# SwagLab_AddOneProduct.i_click_addToCart()[0m
+    [32mAnd [0m[32mI have to click CheckOutCartButton[0m [90m# SwagLab_AddOneProduct.i_click_checkoutToCart()[0m
+    [32mAnd [0m[32mI click to Button to checkout[0m      [90m# SwagLab_AddOneProduct.i_test_checkout_swagLab_app()[0m
+    [32mAnd [0m[32mI enter FirstName[0m                  [90m# SwagLab_AddOneProduct.i_enter_firstname()[0m
+    [32mAnd [0m[32mI enter LastName[0m                   [90m# SwagLab_AddOneProduct.i_enter_lastname()[0m
+    [32mAnd [0m[32mI enter PostCode[0m                   [90m# SwagLab_AddOneProduct.i_enter_postcode()[0m
+    [32mAnd [0m[32mI click continue button[0m            [90m# SwagLab_AddOneProduct.i_click_continue()[0m
+    [32mAnd [0m[32mI click Finish button[0m              [90m# SwagLab_AddOneProduct.i_click_finish_button()[0m
+    [32mAnd [0m[32mI verify order successful[0m          [90m# SwagLab_AddOneProduct.i_verify_order_success()[0m
+    [32mThen [0m[32mI would close the SwagApp[0m         [90m# SwagLab_AddOneProduct.i_click_logout_swagLab_app()[0m
+Feature: 03 SwagLab add multiple product to cart and complete Order
+
+  Scenario: 03_SwagLabs Add multiple product [90m# 03SwagLabs_AddMultipleProduct.feature:3[0m
+    [32mGiven [0m[32mI access SwagLab home page[0m         [90m# SwagLabAddMultipleProduct.i_am_on_the_SwagLab_home_page()[0m
+    [32mWhen [0m[32mI entered SwagUsername[0m              [90m# SwagLabAddMultipleProduct.i_entered_username()[0m
+    [32mThen [0m[32mI entered SwagPassword[0m              [90m# SwagLabAddMultipleProduct.i_entered_password()[0m
+    [32mAnd [0m[32mI press Login button[0m                 [90m# SwagLabAddMultipleProduct.i_press_the_Login_button()[0m
+    [32mAnd [0m[32mI asserted the HomePage[0m              [90m# SwagLabAddMultipleProduct.i_asserted_the_HomePage()[0m
+    [32mAnd [0m[32mI clicked to addToCartButton[0m         [90m# SwagLabAddMultipleProduct.i_submit_addToCart()[0m
+    [32mAnd [0m[32mI clicked to addToCart SecondItem[0m    [90m# SwagLabAddMultipleProduct.i_clicked_addToCart_secondOne()[0m
+    [32mAnd [0m[32mI clicked to CheckOutCartButton[0m      [90m# SwagLabAddMultipleProduct.i_clicked_checkoutToCart()[0m
+    [32mAnd [0m[32mI clicked to CheckOutButton[0m          [90m# SwagLabAddMultipleProduct.i_clicked_check_out_button()[0m
+    [32mAnd [0m[32mI entered FirstName[0m                  [90m# SwagLabAddMultipleProduct.i_entered_firstname()[0m
+    [32mAnd [0m[32mI entered LastName[0m                   [90m# SwagLabAddMultipleProduct.i_entered_lastname()[0m
+    [32mAnd [0m[32mI entered PostCode[0m                   [90m# SwagLabAddMultipleProduct.i_entered_postcode()[0m
+    [32mAnd [0m[32mI clicked continue button[0m            [90m# SwagLabAddMultipleProduct.i_clicked_continue()[0m
+    [32mAnd [0m[32mI clicked Finish button[0m              [90m# SwagLabAddMultipleProduct.i_clicked_finish_button()[0m
+    [32mAnd [0m[32mI verified order successful[0m          [90m# SwagLabAddMultipleProduct.i_verified_order_success()[0m
+    [32mThen [0m[32mI had close the SwagApp[0m             [90m# SwagLabAddMultipleProduct.i_closed_application()[0m
+Feature: 04 SwagLab: Remove product from cart and go back to HomePage
+
+  Scenario: 04_SwagLabs remove item from cart and back to Home page [90m# 04SwagLabs_RemoveProduct_BackToHomePage.feature:3[0m
+    [32mGiven [0m[32mIam on the SwagLab homepage[0m                               [90m# SwagLabs_RemoveProduct_BackToHomePage.am_on_the_SwagLab_homepage()[0m
+    [32mWhen [0m[32mI enter SwagLabUsername[0m                                    [90m# SwagLabs_RemoveProduct_BackToHomePage.i_enter_swag_username()[0m
+    [32mThen [0m[32mI enter SwagLabPassword[0m                                    [90m# SwagLabs_RemoveProduct_BackToHomePage.i_enter_swag_password()[0m
+    [32mAnd [0m[32mI click on SwagLogin button[0m                                 [90m# SwagLabs_RemoveProduct_BackToHomePage.i_click_on_swagLogin_button()[0m
+    [32mAnd [0m[32mI verify SwagLab HomePage[0m                                   [90m# SwagLabs_RemoveProduct_BackToHomePage.i_verifySwagLab_HomePage()[0m
+    [32mAnd [0m[32mI click addCartButton swagLab[0m                               [90m# SwagLabs_RemoveProduct_BackToHomePage.i_click_addToCart()[0m
+    [32mAnd [0m[32mI click swag CheckOutCartButton[0m                             [90m# SwagLabs_RemoveProduct_BackToHomePage.i_click_checkoutToCart()[0m
+    [32mAnd [0m[32mI click remove Button[0m                                       [90m# SwagLabs_RemoveProduct_BackToHomePage.i_click_removeToCart()[0m
+    [32mAnd [0m[32mI click ContinueShopping Button[0m                             [90m# SwagLabs_RemoveProduct_BackToHomePage.i_click_continues_hopping_button()[0m
+    [32mAnd [0m[32mI check shopping page for SwagLab[0m                           [90m# SwagLabs_RemoveProduct_BackToHomePage.i_check_shopping_page()[0m
+    [32mAnd [0m[32mI have click close the SwagApp[0m                              [90m# SwagLabs_RemoveProduct_BackToHomePage.i_close_swagLab_application()[0m
+Feature: 05 SwagLabs verify the checkout page
+
+  Scenario: 05_SwagLabs verify the checkout page [90m# 05SwagLabs_verify_CheckoutPage.feature:3[0m
+    [32mGiven [0m[32mI land on SwagLab home page[0m            [90m# SwagLabs_Verify_CheckoutPage.i_land_on_the_SwagLab_home_page()[0m
+    [32mWhen [0m[32mI am submitting Username[0m                [90m# SwagLabs_Verify_CheckoutPage.i_submit_username()[0m
+    [32mThen [0m[32mI am submitting Password[0m                [90m# SwagLabs_Verify_CheckoutPage.i_submit_password()[0m
+    [32mAnd [0m[32mI submit click to Login button[0m           [90m# SwagLabs_Verify_CheckoutPage.i_submit_click_the_Login_button()[0m
+    [32mAnd [0m[32mI check the swag lab HomePage[0m            [90m# SwagLabs_Verify_CheckoutPage.i_verify_the_HomePage()[0m
+    [32mAnd [0m[32mI navigate to add Cart Button[0m            [90m# SwagLabs_Verify_CheckoutPage.i_navigate_to_addToCart()[0m
+    [32mAnd [0m[32mI navigate to CheckOutCartButton[0m         [90m# SwagLabs_Verify_CheckoutPage.i_navigate_checkoutToCart()[0m
+    [32mAnd [0m[32mI navigating to CheckOutButton[0m           [90m# SwagLabs_Verify_CheckoutPage.i_navigating_check_out_button()[0m
+    [32mAnd [0m[32mI add FirstName to the field[0m             [90m# SwagLabs_Verify_CheckoutPage.i_add_firstname()[0m
+    [32mAnd [0m[32mI add LastName to the field[0m              [90m# SwagLabs_Verify_CheckoutPage.i_add_lastname()[0m
+    [32mAnd [0m[32mI add PostCode to the field[0m              [90m# SwagLabs_Verify_CheckoutPage.i_add_postcode()[0m
+    [32mAnd [0m[32mI navigating to continue button[0m          [90m# SwagLabs_Verify_CheckoutPage.i_navigating_to_continue()[0m
+    [32mAnd [0m[32mI have verified the checkout information[0m [90m# SwagLabs_Verify_CheckoutPage.i_have_verified_the_checkout_info()[0m
+    [32mThen [0m[32mI logoff and close the SwagApp[0m          [90m# SwagLabs_Verify_CheckoutPage.i_logoff_swagLab_app()[0m

@@ -1,0 +1,872 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "01_SwagLab application Login",
+        "description": "",
+        "id": "01-swaglab-application-login-functionality;01-swaglab-application-login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3033370996,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "am on the SwagLab home page",
+            "match": {
+              "location": "SwgLab_LoginPage.am_on_the_SwagLab_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 168474215,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 5,
+                "value": "#When I enter \"\u003cSwagUsername\u003e\""
+              },
+              {
+                "line": 6,
+                "value": "#|SwagUsername|"
+              },
+              {
+                "line": 7,
+                "value": "#|standard_user|"
+              },
+              {
+                "line": 8,
+                "value": "#|locked_out_user|"
+              },
+              {
+                "line": 9,
+                "value": "#|problem_user|"
+              },
+              {
+                "line": 10,
+                "value": "#|performance_glitch_user|"
+              }
+            ],
+            "line": 11,
+            "name": "I enter SwagUsername",
+            "match": {
+              "location": "SwgLab_LoginPage.i_enter_username()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 56537274,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I enter SwagPassword",
+            "match": {
+              "location": "SwgLab_LoginPage.i_enter_password()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 317738744,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I click the Login button",
+            "match": {
+              "location": "SwgLab_LoginPage.i_click_the_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 79101938,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I verify the HomePage",
+            "match": {
+              "location": "SwgLab_LoginPage.i_verify_the_HomePage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 120673996,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I close the SwagApp",
+            "match": {
+              "location": "SwgLab_LoginPage.i_close_the_application()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "01 SwagLab application Login functionality",
+    "description": "",
+    "id": "01-swaglab-application-login-functionality",
+    "keyword": "Feature",
+    "uri": "01SwagLabs_Login.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "02_SwagLabs Add one product",
+        "description": "",
+        "id": "02-swaglab-add-one-product-to-cart-and-complete-order;02-swaglabs-add-one-product",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1751173811,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Iam on the SwagLab home page",
+            "match": {
+              "location": "SwagLab_AddOneProduct.am_on_the_SwagLab_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 163903772,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am entering SwagUsername",
+            "match": {
+              "location": "SwagLab_AddOneProduct.i_enter_username()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 52616724,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am entering SwagPassword",
+            "match": {
+              "location": "SwagLab_AddOneProduct.i_enter_password()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 321760590,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I clicked on Login button",
+            "match": {
+              "location": "SwagLab_AddOneProduct.i_click_the_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 73660177,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I have assert the HomePage",
+            "match": {
+              "location": "SwagLab_AddOneProduct.i_verify_the_HomePage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 53337787,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click to addCartButton",
+            "match": {
+              "location": "SwagLab_AddOneProduct.i_click_addToCart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 84000032,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I have to click CheckOutCartButton",
+            "match": {
+              "location": "SwagLab_AddOneProduct.i_click_checkoutToCart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 91878352,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I click to Button to checkout",
+            "match": {
+              "location": "SwagLab_AddOneProduct.i_test_checkout_swagLab_app()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 63909778,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I enter FirstName",
+            "match": {
+              "location": "SwagLab_AddOneProduct.i_enter_firstname()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 43234595,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I enter LastName",
+            "match": {
+              "location": "SwagLab_AddOneProduct.i_enter_lastname()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 38540222,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I enter PostCode",
+            "match": {
+              "location": "SwagLab_AddOneProduct.i_enter_postcode()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 97684439,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I click continue button",
+            "match": {
+              "location": "SwagLab_AddOneProduct.i_click_continue()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 86369765,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I click Finish button",
+            "match": {
+              "location": "SwagLab_AddOneProduct.i_click_finish_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 24513608,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I verify order successful",
+            "match": {
+              "location": "SwagLab_AddOneProduct.i_verify_order_success()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 149444584,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I would close the SwagApp",
+            "match": {
+              "location": "SwagLab_AddOneProduct.i_click_logout_swagLab_app()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "02 SwagLab add One product to cart and complete Order",
+    "description": "",
+    "id": "02-swaglab-add-one-product-to-cart-and-complete-order",
+    "keyword": "Feature",
+    "uri": "02SwagLabs_AddOneProduct.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "03_SwagLabs Add multiple product",
+        "description": "",
+        "id": "03-swaglab-add-multiple-product-to-cart-and-complete-order;03-swaglabs-add-multiple-product",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1713988748,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I access SwagLab home page",
+            "match": {
+              "location": "SwagLabAddMultipleProduct.i_am_on_the_SwagLab_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 167747433,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I entered SwagUsername",
+            "match": {
+              "location": "SwagLabAddMultipleProduct.i_entered_username()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 55497371,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I entered SwagPassword",
+            "match": {
+              "location": "SwagLabAddMultipleProduct.i_entered_password()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 298831541,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I press Login button",
+            "match": {
+              "location": "SwagLabAddMultipleProduct.i_press_the_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 75241347,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I asserted the HomePage",
+            "match": {
+              "location": "SwagLabAddMultipleProduct.i_asserted_the_HomePage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 52029647,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I clicked to addToCartButton",
+            "match": {
+              "location": "SwagLabAddMultipleProduct.i_submit_addToCart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 44156077,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I clicked to addToCart SecondItem",
+            "match": {
+              "location": "SwagLabAddMultipleProduct.i_clicked_addToCart_secondOne()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 99339809,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I clicked to CheckOutCartButton",
+            "match": {
+              "location": "SwagLabAddMultipleProduct.i_clicked_checkoutToCart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 75578857,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I clicked to CheckOutButton",
+            "match": {
+              "location": "SwagLabAddMultipleProduct.i_clicked_check_out_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 67367007,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I entered FirstName",
+            "match": {
+              "location": "SwagLabAddMultipleProduct.i_entered_firstname()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 40635177,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I entered LastName",
+            "match": {
+              "location": "SwagLabAddMultipleProduct.i_entered_lastname()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 37567534,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I entered PostCode",
+            "match": {
+              "location": "SwagLabAddMultipleProduct.i_entered_postcode()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 98495303,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I clicked continue button",
+            "match": {
+              "location": "SwagLabAddMultipleProduct.i_clicked_continue()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 85510386,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I clicked Finish button",
+            "match": {
+              "location": "SwagLabAddMultipleProduct.i_clicked_finish_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 19718529,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I verified order successful",
+            "match": {
+              "location": "SwagLabAddMultipleProduct.i_verified_order_success()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 108847959,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I had close the SwagApp",
+            "match": {
+              "location": "SwagLabAddMultipleProduct.i_closed_application()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "03 SwagLab add multiple product to cart and complete Order",
+    "description": "",
+    "id": "03-swaglab-add-multiple-product-to-cart-and-complete-order",
+    "keyword": "Feature",
+    "uri": "03SwagLabs_AddMultipleProduct.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "04_SwagLabs remove item from cart and back to Home page",
+        "description": "",
+        "id": "04-swaglab:-remove-product-from-cart-and-go-back-to-homepage;04-swaglabs-remove-item-from-cart-and-back-to-home-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1746245733,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Iam on the SwagLab homepage",
+            "match": {
+              "location": "SwagLabs_RemoveProduct_BackToHomePage.am_on_the_SwagLab_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 162453384,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I enter SwagLabUsername",
+            "match": {
+              "location": "SwagLabs_RemoveProduct_BackToHomePage.i_enter_swag_username()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 52667746,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I enter SwagLabPassword",
+            "match": {
+              "location": "SwagLabs_RemoveProduct_BackToHomePage.i_enter_swag_password()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 301285811,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click on SwagLogin button",
+            "match": {
+              "location": "SwagLabs_RemoveProduct_BackToHomePage.i_click_on_swagLogin_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 76156924,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I verify SwagLab HomePage",
+            "match": {
+              "location": "SwagLabs_RemoveProduct_BackToHomePage.i_verifySwagLab_HomePage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 48821623,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click addCartButton swagLab",
+            "match": {
+              "location": "SwagLabs_RemoveProduct_BackToHomePage.i_click_addToCart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 78994780,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click swag CheckOutCartButton",
+            "match": {
+              "location": "SwagLabs_RemoveProduct_BackToHomePage.i_click_checkoutToCart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 57120091,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I click remove Button",
+            "match": {
+              "location": "SwagLabs_RemoveProduct_BackToHomePage.i_click_removeToCart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 73028347,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I click ContinueShopping Button",
+            "match": {
+              "location": "SwagLabs_RemoveProduct_BackToHomePage.i_click_continues_hopping_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 137559257,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I check shopping page for SwagLab",
+            "match": {
+              "location": "SwagLabs_RemoveProduct_BackToHomePage.i_check_shopping_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 138092022,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I have click close the SwagApp",
+            "match": {
+              "location": "SwagLabs_RemoveProduct_BackToHomePage.i_close_swagLab_application()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "04 SwagLab: Remove product from cart and go back to HomePage",
+    "description": "",
+    "id": "04-swaglab:-remove-product-from-cart-and-go-back-to-homepage",
+    "keyword": "Feature",
+    "uri": "04SwagLabs_RemoveProduct_BackToHomePage.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "05_SwagLabs verify the checkout page",
+        "description": "",
+        "id": "05-swaglabs-verify-the-checkout-page;05-swaglabs-verify-the-checkout-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1809622838,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I land on SwagLab home page",
+            "match": {
+              "location": "SwagLabs_Verify_CheckoutPage.i_land_on_the_SwagLab_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 164298397,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am submitting Username",
+            "match": {
+              "location": "SwagLabs_Verify_CheckoutPage.i_submit_username()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 51159651,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am submitting Password",
+            "match": {
+              "location": "SwagLabs_Verify_CheckoutPage.i_submit_password()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 442255545,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I submit click to Login button",
+            "match": {
+              "location": "SwagLabs_Verify_CheckoutPage.i_submit_click_the_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 71739568,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I check the swag lab HomePage",
+            "match": {
+              "location": "SwagLabs_Verify_CheckoutPage.i_verify_the_HomePage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 47541745,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I navigate to add Cart Button",
+            "match": {
+              "location": "SwagLabs_Verify_CheckoutPage.i_navigate_to_addToCart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 82157069,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I navigate to CheckOutCartButton",
+            "match": {
+              "location": "SwagLabs_Verify_CheckoutPage.i_navigate_checkoutToCart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 78444500,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I navigating to CheckOutButton",
+            "match": {
+              "location": "SwagLabs_Verify_CheckoutPage.i_navigating_check_out_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 66483191,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I add FirstName to the field",
+            "match": {
+              "location": "SwagLabs_Verify_CheckoutPage.i_add_firstname()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 39169818,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I add LastName to the field",
+            "match": {
+              "location": "SwagLabs_Verify_CheckoutPage.i_add_lastname()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 38268822,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I add PostCode to the field",
+            "match": {
+              "location": "SwagLabs_Verify_CheckoutPage.i_add_postcode()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 89160277,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I navigating to continue button",
+            "match": {
+              "location": "SwagLabs_Verify_CheckoutPage.i_navigating_to_continue()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 30050266,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I have verified the checkout information",
+            "match": {
+              "location": "SwagLabs_Verify_CheckoutPage.i_have_verified_the_checkout_info()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 102065921,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I logoff and close the SwagApp",
+            "match": {
+              "location": "SwagLabs_Verify_CheckoutPage.i_logoff_swagLab_app()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "05 SwagLabs verify the checkout page",
+    "description": "",
+    "id": "05-swaglabs-verify-the-checkout-page",
+    "keyword": "Feature",
+    "uri": "05SwagLabs_verify_CheckoutPage.feature"
+  }
+]
